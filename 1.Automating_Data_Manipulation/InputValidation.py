@@ -1,0 +1,10 @@
+import pyinputplus as pyip
+print("\nEXAMPLE 1")
+result = pyip.inputInt("Enter the number: ", min=0)
+print("\n YOu will use", result, "Store no.")
+print("\n EXAMPLE 2")
+result = pyip.inputMenu(['red','blue','green'], lettered= True, numbered = False)
+print("\n You have chosen a color: ", result, "Marker.")
+print("\n EXAMPLE 3")
+result = pyip.inputEmail("Enter your email adddress: ")
+print("\n The email address you entered: ", result)
